@@ -7,22 +7,9 @@
 사용자가 맞추는 퀴즈 앱입니다.
 
 ## 프로젝트 기획
-[피그마 링크](https://kakao.agit.in/g/300086717/wall#:~:text=%2D-,%ED%94%BC%EA%B7%B8%EB%A7%88%20%EB%A7%81%ED%81%AC,-%EC%9A%94%EA%B5%AC%EC%82%AC%ED%95%AD)
-
-[Feature List 링크](https://docs.google.com/spreadsheets/d/1nqW6cqv0r522588JT9ANo5kYM5KpLyuAe2r63XvzltY/edit#gid=1577034971)
-
-## 화면 설명
-|그림 퀴즈|AI로 그리기|직접 그리기|
-|:---:|:---:|:---:|
-|![그림 퀴즈](https://github.daumkakao.com/storage/user/12447/files/84695124-c681-4e02-b868-3e8e39dc8f4f)|![AI 그리기](https://github.daumkakao.com/storage/user/12447/files/c79eaa62-968f-4dc2-8781-1dcff48d71b6)|<img width="250" alt="직접 그리기 죠르디" src="https://github.daumkakao.com/storage/user/12447/files/bc5df596-5be7-4e91-9495-caf262c75c6e">|
-
-|친구 그림 퀴즈|퀴즈 히스토리|
-|:---:|:---:|
-|![직접 그리기 문제 풀이](https://github.daumkakao.com/storage/user/12447/files/45fea34a-539e-4261-ad75-aac88297db7c)|![퀴즈 히스토리](https://github.daumkakao.com/storage/user/12447/files/a3e3b2b8-8bd3-405f-ba68-8aa2315670dd)|
+[Figma](https://www.figma.com/file/1X4Dw5CyLXMR67GfqNrJO3/%EB%88%84%EA%B0%80-%EA%B7%B8%EB%A6%B0-%EA%B8%B0%EB%A6%B0-%EA%B7%B8%EB%A6%BC%3F?type=design&node-id=1313%3A1900&mode=design&t=Twa7FlzcicBlBACg-1)
 
 ## 아키텍처 구성
-<img src="https://github.daumkakao.com/storage/user/12447/files/b44e549d-c949-43d3-9761-8d7161141b6e" width="800" height="350" />
-
 - Clean Architecture
 - Multi Module
 - MVI
@@ -63,7 +50,7 @@
 ## 사용 방법
 **Kakao SDK**
 1. Kakao hask key 생성 후 등록
-- [Kakao Developers](https://kakao.agit.in/g/300086717/wall#:~:text=%2D-,Kakao%20Developers,-%2D%20%EC%9C%84%20%EB%A7%81%ED%81%AC%20%EC%B0%B8%EA%B3%A0%ED%95%98%EC%97%AC)
+- [Kakao Developers](https://developers.kakao.com/docs/latest/ko/android/getting-started#before-you-begin-add-key-hash)
 - 위 링크 참고하여 해시 키 생성 후 애플리케이션에 등록해야 합니다.
 
 2. API_KEY 값 추가
@@ -73,7 +60,4 @@
 
 **Firebase**
 1. 프로젝트에 google.services.json 파일 추가
-- firebase app setting (firebase 프로젝트 접근 권한이 있어야 유효한 링크입니다)
-<img src="https://github.daumkakao.com/storage/user/12447/files/9a82b2aa-6b8e-43a5-89d8-bbe60d7015be" width=500 height=300 />
-- 위 버튼 눌러 파일 다운로드
 - app/google-services.json 경로에 추가
