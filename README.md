@@ -1,4 +1,5 @@
 # 누가 그린 기린 그림
+<img src="https://github.com/TAE-COLA/NGGG_Android/blob/0f031c9419bea7e1613347b91d0ca6412d813f73/NGGG_Thumbnail.png" width=500/>
 2024 비즈앱 개발 파트 겨울 인턴 프로젝트
 
 ## 프로젝트 설명
@@ -52,11 +53,6 @@
 1. Kakao hask key 생성 후 등록
 - [Kakao Developers](https://developers.kakao.com/docs/latest/ko/android/getting-started#before-you-begin-add-key-hash)
 - 위 링크 참고하여 해시 키 생성 후 애플리케이션에 등록해야 합니다.
-
-2. API_KEY 값 추가
-- project 루트 폴더  local.properties에 아래 내용 추가
-- KAKAO_API_KEY="8e7eca16b6434a907ab7db54a9d5f22b"
-- KAKAO_REST_API_KEY="ca7c4a3a5682f2e701ea7051a6afeffa"
 
 **Firebase**
 1. 프로젝트에 google.services.json 파일 추가
