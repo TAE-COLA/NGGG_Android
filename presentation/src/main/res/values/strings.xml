@@ -1,0 +1,170 @@
+<resources>
+    <string name="app_name">NGGG</string>
+
+    <string name="kakao_login">카카오 로그인</string>
+
+    <!--    login screen    -->
+    <string name="login_title_1">누가 그린</string>
+    <string name="login_title_2">\u0020기린\u0020</string>
+    <string name="login_title_3">그림?</string>
+    <string name="login_sub_title">AI 혹은 다른 사람이 그린 그림을 보고\n무엇을 그린 그림인지 맞춰보세요!</string>
+    <string name="login_karlo_text">Powered by Karlo</string>
+
+    <!--    home screen    -->
+    <string name="home_title_1">누가 그린\u0020</string>
+    <string name="home_title_2">기린</string>
+    <string name="home_title_3">\u0020그림?</string>
+    <string name="home_description">AI 혹은 다른 사람이 그린 그림을 보고\n무엇을 그린 그림인지 맞춰보세요!</string>
+    <string name="home_quiz_ai_robby_button">AI가 그린 그림 퀴즈</string>
+    <string name="home_quiz_user_robby_button">남이 그린 그림 퀴즈</string>
+    <string name="home_drawing_robby_button">내가 그리는 그림 퀴즈</string>
+    <string name="home_quiz_history_button">내가 풀었던 퀴즈</string>
+
+    <!--    quiz AI robby screen    -->
+    <string name="quiz_ai_robby_title">AI가 그린 그림 퀴즈</string>
+    <string name="quiz_ai_robby_description_1">Karlo가 그린 그림을 보고,\n무엇을 그린 그림인지 맞춰보세요!</string>
+    <string name="quiz_ai_robby_description_2">10문제 중 9개 이상 맞출 경우,\nAI 그림을 직접 그리는 데 사용되는\nPensil을 1개 받을 수 있어요.</string>
+    <string name="quiz_ai_robby_start_button">시작하기</string>
+
+    <!--    quiz ai screen    -->
+    <string name="quiz_ai_title">그림 퀴즈</string>
+    <string name="quiz_ai_loading">문제 출제중입니다...\n기다려주세요!</string>
+    <string name="quiz_ai_correct">정답이에요!</string>
+    <string name="quiz_ai_wrong">틀렸어요ㅠ</string>
+    <string name="quiz_ai_label">답 입력</string>
+    <string name="quiz_ai_submit_button_hidden">제출</string>
+    <string name="quiz_ai_submit_button_not_hidden">다음 문제</string>
+    <string name="quiz_ai_save_loading">게임 기록을 저장중 입니다.</string>
+
+    <!--    quiz user robby screen    -->
+    <string name="quiz_user_robby_title">남이 그린 그림 퀴즈</string>
+    <string name="quiz_user_robby_description_1">다른 사람이 직접 혹은 Karlo를 통해 그린 그림을 보고,\n무엇을 그린 그림인지 맞춰보세요!</string>
+    <string name="quiz_user_robby_description_2">10문제 중 9개 이상 맞출 경우,\nAI 그림을 직접 그리는 데 사용되는\nPensil을 1개 받을 수 있어요.</string>
+    <string name="quiz_user_robby_start_button">시작하기</string>
+    <string name="quiz_user_robby_parsing_error">문자열 파싱에 실패 하였습니다. 다시 시도해 주세요.</string>
+
+    <!--    quiz user screen    -->
+    <string name="quiz_user_title">그림 퀴즈</string>
+    <string name="quiz_user_loading">문제 출제중입니다...\n기다려주세요!</string>
+    <string name="quiz_user_correct">정답이에요!</string>
+    <string name="quiz_user_wrong">틀렸어요ㅠ</string>
+    <string name="quiz_user_label">답 입력</string>
+    <string name="quiz_user_submit_button_hidden">제출</string>
+    <string name="quiz_user_submit_button_not_hidden">다음 문제</string>
+    <string name="quiz_user_save_loading">게임 기록을 저장중 입니다.</string>
+
+    <!--    quiz result screen    -->
+    <string name="quiz_result_title_success">대단해요!!</string>
+    <string name="quiz_result_title_failure">아쉬워요ㅠ</string>
+    <string name="quiz_result_subtitle">%d문제 중에서 %d문제를 맞췄어요.</string>
+    <string name="quiz_result_pen_success">x 1</string>
+    <string name="quiz_result_emoji_failure">😭</string>
+    <string name="quiz_result_body_success">연필 한자루를 지급해드릴게요!</string>
+    <string name="quiz_result_body_failure">다음엔 더 잘해봐요!</string>
+    <string name="quiz_result_home_button">홈으로</string>
+
+    <!--    drawing robby screen    -->
+    <string name="drawing_robby_title">내가 그리는 그림 퀴즈</string>
+    <string name="drawing_ai_button">AI로 그리기</string>
+    <string name="drawing_ai_button_sub">Karlo에게 그림을 맡겨보세요!\n(연필 1개가 소모됩니다.)</string>
+    <string name="drawing_user_button">직접 그리기</string>
+    <string name="drawing_user_button_sub">펜으로 직접 그림을 그려보세요!</string>
+
+    <!--    drawing ai screen    -->
+    <string name="drawing_ai_title">AI로 그리기</string>
+    <string name="drawing_ai_sub_text">프롬프트에 넣을 단어를 선택해주세요! (최대 2개)</string>
+    <string name="drawing_ai_chipbox_label">선택한 단어</string>
+    <string name="drawing_ai_text_field_label">단어 검색</string>
+    <string name="drawng_ai_create_button_text">생성</string>
+    <string name="drawing_ai_pen_text">연필 1개가 소모됩니다.</string>
+    <string name="drawing_ai_selected_word">선택한 단어</string>
+    <string name="drawing_ai_not_enough_pen">사용할 수 있는 펜이 없습니다.</string>
+    <string name="drawing_ai_max_selectable">최대 2개 단어를 선택할 수 있습니다.</string>
+
+    <!--    drawing ai result screen    -->
+    <string name="drawing_result_ai_title">짜쟌! Karlo가 멋진 그림을 그렸어요!</string>
+    <string name="drawing_result_ai_sub_text">멋진 그림을 친구에게 공유해보세요!\n친구가 문제를 맞춘다면, 친구에게 연필 한자루가 지급됩니다.</string>
+    <string name="drawing_result_ai_share">친구에게 공유 &amp; 문제 출제하기</string>
+    <string name="drawing_result_ai_home">홈으로</string>
+    <string name="drawing_result_ai_loading">Karlo가 열심히 그리고 있어요!</string>
+
+    <!--    drawing user screen    -->
+    <string name="drawing_user_title">직접 그리기</string>
+    <string name="drawing_user_sub_text">어떤 그림을 그릴지 선택해주세요! (최대 2개)</string>
+    <string name="drawing_user_chip_box_label">선택한 단어</string>
+    <string name="drawing_user_field_label">단어 검색</string>
+    <string name="drawing_user_button_text">다음</string>
+    <string name="drawing_user_max_selectable">최대 2개 단어를 선택할 수 있습니다.</string>
+
+    <!--    drawing user sketch screen    -->
+    <string name="drawing_user_sketch_title">직접 그리기</string>
+    <string name="drawing_user_sketch_sub_text">제시어를 그려보세요!</string>
+    <string name="drawing_user_sketch_chip_box_label">선택한 단어</string>
+    <string name="drawing_user_sketch_button_text">완료</string>
+    <string name="drawing_user_sketch_fail_screenshot_message">이미지 캡처에 실패 하였습니다.</string>
+
+    <!--    drawing user result screen    -->
+    <string name="drawing_user_result_title">정말 멋진 그림이네요!</string>
+    <string name="drawing_user_result_sub_text">멋진 그림을 친구에게 공유해보세요!\n친구가 문제를 맞춘다면, 친구에게 연필 한자루가 지급됩니다.</string>
+    <string name="drawing_user_result_share">친구에게 공유 &amp; 문제 출제하기</string>
+    <string name="drawing_user_result_home">홈으로</string>
+
+    <!--    quiz history list screen    -->
+    <string name="quiz_history_list_title">내가 풀었던 퀴즈</string>
+    <string name="quiz_history_list_item_category_1">AI가 그린 그림 퀴즈</string>
+    <string name="quiz_history_list_item_category_2">남이 그린 그림 퀴즈</string>
+    <string name="quiz_history_list_item_category_3">친구가 그린 그림 퀴즈</string>
+    <string name="quiz_history_list_item_success">연필 획득 성공</string>
+    <string name="quiz_history_list_item_failure">연필 획득 실패</string>
+    <string name="quiz_history_list_item_score">\u0020‧\u0020%d문제 중 %d문제 정답</string>
+
+    <!--    my page screen    -->
+    <string name="my_page_title">마이페이지</string>
+    <string name="my_page_name">닉네임</string>
+    <string name="my_page_logout">로그아웃</string>
+    <string name="my_page_sign_out">회원탈퇴</string>
+    <string name="my_page_logout_message">로그아웃되었습니다.</string>
+    <string name="my_page_sign_out_message">정상적으로 회원 탈퇴 되었습니다.</string>
+
+    <!--    quiz friend screen    -->
+    <string name="quiz_friend_loading">문제를 불러오는 중입니다...\n기다려주세요!</string>
+    <string name="quiz_friend_title">%s님의 문제를 풀어보세요!</string>
+    <string name="quiz_friend_subtitle">문제를 맞추면 연필 한자루를 드려요!</string>
+    <string name="quiz_friend_correct">정답이에요!</string>
+    <string name="quiz_friend_wrong">틀렸어요ㅠ</string>
+    <string name="quiz_friend_label">답 입력</string>
+    <string name="quiz_friend_submit_button_hidden">제출</string>
+    <string name="quiz_friend_submit_button_not_hidden">홈으로</string>
+
+    <!--    quiz exit dialog    -->
+    <string name="quiz_exit_dialog_title">정말 종료하시겠어요?</string>
+    <string name="quiz_exit_dialog_body">게임 진행 상황을 잃게 됩니다.</string>
+    <string name="quiz_exit_dialog_dismiss">취소</string>
+    <string name="quiz_exit_dialog_confirm">종료</string>
+
+    <!--    network lost dialog    -->
+    <string name="network_lost_dialog_title">네트워크 오류</string>
+    <string name="network_lost_dialog_body">네트워크가 연결되지 않았습니다. 네트워크 연결 상태를 확인해주세요.</string>
+    <string name="network_lost_dialog_dismiss">앱 종료</string>
+    <string name="network_lost_dialog_confirm">재시도</string>
+
+    <!--    resolution error screen    -->
+    <string name="resolution_error_message">이 화면은 해당 해상도에서 지원하지 않습니다.\n화면을 회전하시거나 다른 기기를 사용해주세요.</string>
+    <string name="resolution_error_button">뒤로가기</string>
+
+    <!--   kakao share message    -->
+    <string name="share_feed_title">친구가 그림 문제를 출제했어요!</string>
+    <string name="share_feed_description">문제를 풀어봅시다.</string>
+    <string name="share_feed_button">문제 풀러가기</string>
+
+    <!--   quiz history detail    -->
+    <string name="quiz_history_detail_quiz_id">퀴즈 ID</string>
+    <string name="quiz_history_detail_quiz_type">AI가 그린 그림 퀴즈 </string>
+    <string name="quiz_history_detail_my_answer">내가 쓴 정답: %s</string>
+
+    <!--   content provider    -->
+    <string name="content_provider_quiz_image">Quiz Image</string>
+
+    <!--   empty quiz layout    -->
+    <string name="empty_quiz_text">진행한 퀴즈가 없습니다.</string>
+</resources>

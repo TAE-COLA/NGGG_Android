@@ -1,0 +1,9 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.kakao.nggg",
+    "sha256_cert_fingerprints":
+    ["97:7C:3E:70:F7:89:68:E5:43:BF:07:B3:B1:F2:16:23:A5:E6:15:81:9C:1A:21:06:20:6F:94:64:40:0E:8B:E0"]
+  }
+}]

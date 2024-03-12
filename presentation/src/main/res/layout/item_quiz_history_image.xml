@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="image"
+            type="com.kakao.presentation.model.ImageUIModel" />
+
+        <variable
+            name="isCorrect"
+            type="Boolean" />
+
+        <variable
+            name="position"
+            type="Integer" />
+    </data>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="wrap_content"
+        android:layout_height="64dp"
+        app:layout_horizontal_margin="@{8}"
+        app:layout_horizontal_position="@{position}">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="64dp"
+            android:adjustViewBounds="true"
+            android:contentDescription="@string/content_provider_quiz_image"
+            android:maxWidth="108dp"
+            android:padding="2dp"
+            app:image_isCorrect="@{isCorrect}"
+            app:image_src="@{image.url}"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:src="@drawable/img_home_picture" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>

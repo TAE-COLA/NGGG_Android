@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+        <variable
+            name="state"
+            type="com.kakao.presentation.ui.screen.quiz_history.quiz_history_list.QuizHistoryListContract.QuizHistoryListState" />
+
+        <variable
+            name="isLoading"
+            type="Boolean" />
+
+        <variable
+            name="onClickQuiz"
+            type="kotlin.jvm.functions.Function2&lt;com.kakao.presentation.model.QuizUIModel, android.os.Parcelable, kotlin.Unit>" />
+    </data>
+
+    <androidx.coordinatorlayout.widget.CoordinatorLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <com.google.android.material.appbar.AppBarLayout
+            android:id="@+id/quiz_history_list_app_bar_layout"
+            android:layout_width="match_parent"
+            android:layout_height="188dp"
+            android:background="?attr/colorSurface"
+            app:elevation="0dp"
+            app:liftOnScroll="false">
+
+            <com.google.android.material.appbar.CollapsingToolbarLayout
+                android:id="@+id/toolbar_layout"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="?attr/colorSurface"
+                app:collapsedTitleTextAppearance="?attr/textAppearanceTitleLarge"
+                app:collapsedTitleTextColor="?attr/colorOnSurface"
+                app:expandedTitleGravity="center_horizontal"
+                app:expandedTitleMarginTop="96dp"
+                app:expandedTitleTextAppearance="?attr/textAppearanceDisplaySmall"
+                app:expandedTitleTextColor="?attr/colorPrimary"
+                app:layout_scrollFlags="scroll|exitUntilCollapsed"
+                app:title="@string/quiz_history_list_title"
+                app:titleCollapseMode="scale">
+
+                <com.google.android.material.appbar.MaterialToolbar
+                    android:id="@+id/quiz_history_list_toolbar"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:background="?attr/colorSurface"
+                    app:layout_collapseMode="pin"
+                    app:navigationIcon="@drawable/ic_arrow_back" />
+
+            </com.google.android.material.appbar.CollapsingToolbarLayout>
+        </com.google.android.material.appbar.AppBarLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:loading="@{isLoading}"
+            app:loading_isLoadingIndicator="@{true}"
+            tools:visibility="gone">
+
+            <include layout="@layout/layout_loading" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            app:loading="@{isLoading}"
+            app:quiz_quizList="@{state.quizList}"
+            tools:visibility="gone">
+
+            <include layout="@layout/layout_empty_quiz" />
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rv_quiz_history_list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:clipChildren="false"
+            android:clipToPadding="false"
+            android:paddingBottom="32dp"
+            app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+            app:layout_behavior="@string/appbar_scrolling_view_behavior"
+            app:loading="@{isLoading}"
+            app:quiz_onClickQuiz="@{onClickQuiz}"
+            app:quiz_quizImageMap="@{state.quizImageMap}"
+            app:quiz_quizList="@{state.quizList}" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</layout>

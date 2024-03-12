@@ -1,0 +1,62 @@
+package com.kakao.domain.usecase
+
+import com.kakao.domain.model.Keyword
+import javax.inject.Inject
+
+class GetKeywords @Inject constructor() {
+
+  operator fun invoke(): List<Keyword> = listOf(
+    Keyword("bag", "가방"),
+    Keyword("dog", "개"),
+    Keyword("cat", "고양이"),
+    Keyword("dinosaur", "공룡"),
+    Keyword("giraffe", "기린"),
+    Keyword("guitar", "기타"),
+    Keyword("flower", "꽃"),
+    Keyword("tree", "나무"),
+    Keyword("butterfly", "나비"),
+    Keyword("moon", "달"),
+    Keyword("chicken", "닭"),
+    Keyword("money", "돈"),
+    Keyword("pig", "돼지"),
+    Keyword("horse", "말"),
+    Keyword("hat", "모자"),
+    Keyword("fish", "물고기"),
+    Keyword("violin", "바이올린"),
+    Keyword("star", "별"),
+    Keyword("airplane", "비행기"),
+    Keyword("apple", "사과"),
+    Keyword("lion", "사자"),
+    Keyword("mountain", "산"),
+    Keyword("castle", "성"),
+    Keyword("cow", "소"),
+    Keyword("girl", "소녀"),
+    Keyword("boy", "소년"),
+    Keyword("clock", "시계"),
+    Keyword("baseball", "야구"),
+    Keyword("sheep", "양"),
+    Keyword("sock", "양말"),
+    Keyword("pencil", "연필"),
+    Keyword("dragon", "용"),
+    Keyword("umbrella", "우산"),
+    Keyword("monkey", "원숭이"),
+    Keyword("chair", "의자"),
+    Keyword("car", "자동차"),
+    Keyword("book", "책"),
+    Keyword("soccer", "축구"),
+    Keyword("coffee", "커피"),
+    Keyword("computer", "컴퓨터"),
+    Keyword("cup", "컵"),
+    Keyword("cake", "케이크"),
+    Keyword("elephant", "코끼리"),
+    Keyword("coke", "콜라"),
+    Keyword("cookie", "쿠키"),
+    Keyword("sun", "태양"),
+    Keyword("grape", "포도"),
+    Keyword("pizza", "피자"),
+    Keyword("sky", "하늘"),
+    Keyword("beach", "해변"),
+    Keyword("hamburger", "햄버거"),
+    Keyword("tiger", "호랑이")
+  ).sortedBy { it.korean }
+}

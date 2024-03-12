@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+    
+    <style name="TextAppearance.Material3.DisplayLarge.Custom" parent="TextAppearance.Material3.DisplayLarge">
+        <item name="fontFamily">@font/pretendard_extra_bold</item>
+        <item name="android:textSize">57sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">64sp</item>
+        <item name="lineHeight">64sp</item>
+        <item name="android:fontWeight">800</item>
+    </style>
+
+    <style name="TextAppearance.Material3.DisplayMedium.Custom" parent="TextAppearance.Material3.DisplayMedium">
+        <item name="fontFamily">@font/pretendard_extra_bold</item>
+        <item name="android:textSize">45sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">52sp</item>
+        <item name="lineHeight">52sp</item>
+        <item name="android:fontWeight">800</item>
+    </style>
+
+    <style name="TextAppearance.Material3.DisplaySmall.Custom" parent="TextAppearance.Material3.DisplaySmall">
+        <item name="fontFamily">@font/pretendard_extra_bold</item>
+        <item name="android:textSize">36sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">44sp</item>
+        <item name="lineHeight">44sp</item>
+        <item name="android:fontWeight">800</item>
+    </style>
+
+    <style name="TextAppearance.Material3.HeadlineLarge.Custom" parent="TextAppearance.Material3.HeadlineLarge">
+        <item name="fontFamily">@font/pretendard_semi_bold</item>
+        <item name="android:textSize">32sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">40sp</item>
+        <item name="lineHeight">40sp</item>
+        <item name="android:fontWeight">600</item>
+    </style>
+
+    <style name="TextAppearance.Material3.HeadlineMedium.Custom" parent="TextAppearance.Material3.HeadlineMedium">
+        <item name="fontFamily">@font/pretendard_semi_bold</item>
+        <item name="android:textSize">28sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">36sp</item>
+        <item name="lineHeight">36sp</item>
+        <item name="android:fontWeight">600</item>
+    </style>
+
+    <style name="TextAppearance.Material3.HeadlineSmall.Custom" parent="TextAppearance.Material3.HeadlineSmall">
+        <item name="fontFamily">@font/pretendard_semi_bold</item>
+        <item name="android:textSize">24sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">32sp</item>
+        <item name="lineHeight">32sp</item>
+        <item name="android:fontWeight">600</item>
+    </style>
+
+    <style name="TextAppearance.Material3.TitleLarge.Custom" parent="TextAppearance.Material3.TitleLarge">
+        <item name="fontFamily">@font/pretendard_bold</item>
+        <item name="android:textSize">22sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">28sp</item>
+        <item name="lineHeight">28sp</item>
+        <item name="android:fontWeight">700</item>
+    </style>
+
+
+    <style name="TextAppearance.Material3.TitleMedium.Custom" parent="TextAppearance.Material3.TitleMedium">
+        <item name="fontFamily">@font/pretendard_bold</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">24sp</item>
+        <item name="lineHeight">24sp</item>
+        <item name="android:fontWeight">700</item>
+    </style>
+
+    <style name="TextAppearance.Material3.TitleSmall.Custom" parent="TextAppearance.Material3.TitleSmall">
+        <item name="fontFamily">@font/pretendard_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">20sp</item>
+        <item name="lineHeight">20sp</item>
+        <item name="android:fontWeight">700</item>
+    </style>
+
+    <style name="TextAppearance.Material3.BodyLarge.Custom" parent="TextAppearance.Material3.BodyLarge">
+        <item name="fontFamily">@font/pretendard_regular</item>
+        <item name="android:textSize">16sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">24sp</item>
+        <item name="lineHeight">24sp</item>
+        <item name="android:fontWeight">500</item>
+    </style>
+
+    <style name="TextAppearance.Material3.BodyMedium.Custom" parent="TextAppearance.Material3.BodyMedium">
+        <item name="fontFamily">@font/pretendard_regular</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">20sp</item>
+        <item name="lineHeight">20sp</item>
+        <item name="android:fontWeight">500</item>
+    </style>
+
+    <style name="TextAppearance.Material3.BodySmall.Custom" parent="TextAppearance.Material3.BodySmall">
+        <item name="fontFamily">@font/pretendard_regular</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">16sp</item>
+        <item name="lineHeight">16sp</item>
+        <item name="android:fontWeight">500</item>
+    </style>
+
+    <style name="TextAppearance.Material3.LabelLarge.Custom" parent="TextAppearance.Material3.LabelLarge">
+        <item name="fontFamily">@font/pretendard_bold</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">20sp</item>
+        <item name="lineHeight">20sp</item>
+        <item name="android:fontWeight">700</item>
+    </style>
+
+    <style name="TextAppearance.Material3.LabelMedium.Custom" parent="TextAppearance.Material3.LabelMedium">
+        <item name="fontFamily">@font/pretendard_bold</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">16sp</item>
+        <item name="lineHeight">16sp</item>
+        <item name="android:fontWeight">700</item>
+    </style>
+
+    <style name="TextAppearance.Material3.LabelSmall.Custom" parent="TextAppearance.Material3.LabelSmall">
+        <item name="fontFamily">@font/pretendard_bold</item>
+        <item name="android:textSize">11sp</item>
+        <item name="android:lineHeight" tools:targetApi="p">16sp</item>
+        <item name="lineHeight">16sp</item>
+        <item name="android:fontWeight">700</item>
+    </style>
+
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/quiz_history_navigation"
+    app:startDestination="@id/quizHistoryListFragment">
+
+    <fragment
+        android:id="@+id/quizHistoryListFragment"
+        android:name="com.kakao.presentation.ui.screen.quiz_history.quiz_history_list.QuizHistoryListFragment"
+        android:label="QuizHistoryListFragment">
+
+        <action
+            android:id="@+id/action_quizHistoryListFragment_to_quizHistoryDetailFragment"
+            app:destination="@id/quizHistoryDetailFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/quizHistoryDetailFragment"
+        android:name="com.kakao.presentation.ui.screen.quiz_history.quiz_history_detail.QuizHistoryDetailFragment"
+        android:label="QuizHistoryDetailFragment">
+
+        <argument
+            android:name="quizId"
+            app:argType="string"
+            android:defaultValue=""/>
+    </fragment>
+
+</navigation>
